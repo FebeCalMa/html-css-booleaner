@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html-css-booleaner</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <section>
-            <img src="img/logo.svg" alt="logo">
-        </section>
+        <!--Logo con sfondo-->
+        <div class="logo">
+            <img id="logobooleaner" src="img/logo.svg" alt="logo">
+        </div>
 
         <section>
             <h1>
                 Internet deve essere al servizio del "bene pubblico": il
                 manifesto di Tim Berners-Lee
             </h1>
-            <h3>
-                Scritto da The Booleaner
-            </h3>
+            <div>
+                <h4>Scritto da The Booleaner</h4>
+                <h5>il 10/10/2020</h5>
+            </div>
             <img src="img/tim-1.jpg">
             <img src="img/tim-2.jpg">
             <footer>
@@ -71,10 +74,16 @@
             [2][3][4] grazie all'offerta all'utente di una vasta serie di contenuti potenzialmente informativi e di servizi.
         </p>
     </main>
+    
+    <!--Suggerimenti-->
     <footer>
         <h3>Potrebbero interesarti</h3>
-        <img src="img/monitor.jpg">
-        <img src="img/graph.jpg">
+        <div>
+          <img src="img/monitor.jpg">
+        </div>
+        <div>
+            <img src="img/graph.jpg">
+        </div>
     </footer>
 </body>
 </html>
