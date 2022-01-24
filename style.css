@@ -7,3 +7,20 @@
 #logobooleaner{
     width: 200px;
 }
+
+.referenze{
+    color: grey;
+}
+
+thead{
+    background-color: rgb(36, 75, 148);
+    color: white;
+}
+
+tbody{
+    background-color: rgb(77, 97, 211);
+}
+
+.suggerimenti{
+    color: grey;
+}
